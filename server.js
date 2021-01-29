@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   const response = {
-    message: "My Rule-Validation API",
+    message: "My Rule-Validation API.",
     status: "success",
     data: {
       name: "Patrick Onyebuchi Ofili",
